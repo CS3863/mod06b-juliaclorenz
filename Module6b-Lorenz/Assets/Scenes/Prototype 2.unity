@@ -192,6 +192,18 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121023538}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaddf6c687115f04eaee4b6a14daa6eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &121023550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121023538}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eaddf6c687115f04eaee4b6a14daa6eb, type: 3}
@@ -579,7 +591,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -682,7 +694,7 @@ MonoBehaviour:
   horizontalInput: 0
   speed: 10
   xRange: 9
-  projectilePrefab: {fileID: 121023538}
+  projectilePrefab: {fileID: 7352235306257432452, guid: f773a71ff90fddb4b84e1af645e7b2e4, type: 3}
 --- !u!114 &1465386571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -847,6 +859,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6795332627292297620, guid: f773a71ff90fddb4b84e1af645e7b2e4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7352235306257210650, guid: f773a71ff90fddb4b84e1af645e7b2e4, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -908,6 +924,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2813021124886637578, guid: bf6e4736a28170f4793065686c2beff4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5263576183463755729, guid: bf6e4736a28170f4793065686c2beff4, type: 3}
       propertyPath: m_Name
       value: horsie
@@ -969,6 +989,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7789321108832774249, guid: 01410973cc9efe34bb240728577343d1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8484102410475666523, guid: 01410973cc9efe34bb240728577343d1, type: 3}
       propertyPath: speed
       value: 5
@@ -1030,6 +1054,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4575828565709053801, guid: 8dffe2be2d7aa974d885e42b41a2c64c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8797266374119115338, guid: 8dffe2be2d7aa974d885e42b41a2c64c, type: 3}
       propertyPath: m_Name
       value: chickn
